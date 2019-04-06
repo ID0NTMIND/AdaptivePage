@@ -1,19 +1,21 @@
 @media only screen and (max-width: 992px){
     .wrapper {
         width: 750px;
+        margin: 10px auto;
     }
     .header {
-        background: #244124;
+        height: 80px;
+        background: #eba38d;
     }
     .sideLeft {
-        background: #80e47e'
+        background: #cccccc;
     }
     .content {
         background: #f0f1ef;
     }
     .footer {
-         background: #000000;
-         height: 45px;        
+         background: #e6e4e4;
+         height: 55px;        
     }
 
 }
@@ -24,11 +26,11 @@
         margin: 10px auto;
     }
     .header {
-        background: #c3d614;
-        height: 100px;
+        background: #82884f;
+        height: 80 px;
     }
     .sideLeft { 
-        background: #4e1dc0;
+        background: #36c7c7;
         width: 100%;
         margin-top: 4;
         float: none;
@@ -41,8 +43,8 @@
 
     }
     .footer {
-         background: #000000;
-         height: 45px;        
+         background: #78a38f;
+         height: 50px;        
     }
 
 }
@@ -50,15 +52,16 @@
 @media only screen and (max-width: 480px){
     .wrapper {
         width: 320px;
-        margin: 5px auto;
+        margin: 0px auto;
+
     }
     .header {
-        background: #c3d614;
+        background: #a10d02;
         height: 30px;
         width: 100%;
     }
     .sideLeft { 
-        background: #4e1dc0;
+        background: #ec76d9;
         width: 100%;
         height:100px;
         float: none;
@@ -69,7 +72,7 @@
         height: 100px;
     }
     .footer {
-         background: #000000;
+         background: #aa5050;
          height: 35px;
          width: 100%;        
     }
